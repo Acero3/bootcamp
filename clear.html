@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+}
+#blueDIV {
+  width:80px;
+  background:lightblue;
+  float:left;
+  padding:10px;
+}
+
+#redDIV {
+  padding:10px;
+  width:80px;
+  background:coral;
+  float:right;
+}
+
+#my {
+  /*
+  The clear property controls the flow next to floated elements.
+
+  The clear property specifies what should happen with the element that is next to a floating element.
+  */
+
+  /* chose one clear then comment the rest. Then see the result in the browser  */
+  /* https://developer.mozilla.org/ja/docs/Web/CSS/clear */
+	/* clear: none; */
+  clear: left;
+  /* clear: right; */
+  /* clear: both; */
+}
+</style>
+</head>
+<body>
+
+<h1>The clear Property</h1>
+
+<div id="myDIV">
+<div id="blueDIV">This DIV floats left</div>
+<div id="redDIV">And this DIV floats right</div>
+
+<div id="my">
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
+
+</div>
+
+</body>
+</html>

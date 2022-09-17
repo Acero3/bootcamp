@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Propertiest</title>
+
+  <style>
+    /* to change the behavior of element default */
+    a {
+      border: 1px solid red;
+      /* default; */
+      /* display: inline; */
+      /* inline element doenst support width/margin */
+      /* width: 200px; */
+
+      /* make change to display: block; */
+      /* display: block; */
+      /* inline element doenst support width */
+      width: 200px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      
+      /* inline-block */
+      display: inline-block;
+      width: 200px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+
+    li {
+      display: inline;
+      /* display: inline-block; */
+      border: 1px solid blue;
+      /* width: 200px; */
+    }
+
+    /* z-index */
+    div{
+      width: 100px;
+      height: 100px;
+    }
+    .layer1{
+      background: teal;
+      position: relative;
+      top: 50px;
+      left: 75px;
+      /* put the box in on top  0->1->2*/
+      z-index: -1;
+    }
+    .layer2{
+      background: tomato;
+      position: relative;
+      z-index: 1;
+    }
+    .layer3{
+      background: purple;
+      position: relative;
+      bottom: 75px;
+      left: 50px;
+
+      /* in z-index.higher number will be on the top */
+    }
+
+  </style>
+  </head>
+  <body>
+
+  <!-- inlune element -->
+  <a href="">Home</a>
+  <a href="">About</a>
+  <a href="">Contact</a>
+
+  
+  <!-- block element -->
+  <h1>My Blog</h1>
+  <h2>Kaede</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maiores vitae dignissimos, accusamus doloribus dolores sint quae iure soluta. Reprehenderit minima commodi, voluptates dolorem aperiam iure eaque adipisci. Expedita, consequatur?</p>
+  <ul>
+    <li>facebook</li>
+    <li>titter</li>
+    <li>instagram</li>
+  </ul>
+
+  <!-- z-index -->
+  <div class="layer1">
+    I'm a layer1
+  </div>
+  <div class="layer2">
+    I'm a layer2
+  </div>
+  <div class="layer3">
+    I'm a layer3
+  </div>
+</body>
+</html>

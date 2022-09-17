@@ -1,0 +1,84 @@
+table.ex1 {
+  empty-cells: hide;
+  /* empty-cells: show; */
+}
+
+table.ex2 {
+  empty-cells: show;
+  border-collapse: separate;
+  border-spacing: 15px 20px;
+  /* border-spacing: horizontally vertically; */
+  /* border-collapse: collapse; */
+  border-collapse: separate;
+}
+
+body {
+  background-color: rgba(0, 255, 213, 0.36);
+}
+
+.table-example {
+  background-color: blueviolet;
+  margin-top: 25px;
+  margi-right: 25px;
+  margi-bottom: 50px;
+  margi-left: 35px;
+  /* margin: 20px 25px 50px; */
+  /* margin : top right bottom left */
+  padding: 15px;
+  /* border: 5px solid black; */
+  border-top: 5px inset rgb(146, 104, 104);
+  border-radius: 30px;
+}
+.table-example-1 {
+  background-color: rgb(113, 198, 140);
+  margin: 25px 20px 30px 45px;
+  padding: 25px 20px 30px 45px;
+  border: 10px dotted rgb(44, 67, 51);
+}
+
+.box-shadow{
+  box-shadow: 10px 15px 10px 5px;
+  border: 1px solid black;
+  /* float: right; */
+  /* clear: none; */
+  clear: left;
+  position: static;
+}
+
+.static {
+  position:static;
+}
+
+.relative{
+  position:relative;
+  left: 50px;
+  border:3px;
+  top: 80px;
+}
+.absolute{
+position: absolute;
+top: 100px;
+}
+
+.fixed{
+  position: fixed;
+  top: 300px;
+}
+
+.fixed .myblock {
+display: block;
+/* go ne line */
+}
+
+.fixed p {
+  display: inline;
+}
+.myblock {
+  /* second myblock go new line */
+  /* display: inline; */
+  display: block;
+}
+.myblockinline {
+  /* continue writing in one line */
+  display: inline;
+}

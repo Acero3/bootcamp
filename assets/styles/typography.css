@@ -1,0 +1,117 @@
+.text-deeppink {
+  color: deeppink;
+  /* named color */
+}
+
+.text-yellow-green{
+  color: rgb(220, 255, 100);
+  /* rgb */
+}
+
+.text-yellow-green-50{
+  color: rgb(220, 255, 100);
+  opacity: .5; /* transparency set at 50% */
+}
+
+.text-purple{
+  color: rgba(200, 150, 210, 1); /*rgba  */
+}
+
+.text-purple-50{
+  color: rgba(200, 150, 210, .5);/*rgba  */
+  /* color is set at 50% transparency */
+}
+
+.text-light-brown{
+  color: #c7a17a;/*HEX RRGGBB*/
+}
+
+.text-serif {
+  font-family: serif;
+}
+.test-sans-serif {
+  font-family: sans-serif;
+}
+.text-monospace {
+  font-family: monospace;
+}
+.text-30-px{
+  font-size: 30px;
+}
+.text-50-percent{
+  font-size: 50%;
+}
+.text-5-em{
+  font-size: 5em;
+}
+
+
+.fw-bold {
+  font-weight: bold;
+}
+.fw-light {
+  font-weight: light;
+}
+.fw-light-100 {
+  font-weight: 100;
+}
+.fw-light-700 {
+  font-weight: 700;
+}
+.fw-light-900 {
+  font-weight: 900;
+}
+
+.fst-normal {
+font-style: normal;
+}
+.fst-italic {
+font-style: italic;
+}
+.fst-oblique {
+font-style: oblique;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-Capitalize {
+  text-transform: capitalize;
+}
+
+.text-decolation-overline {
+text-decoration: overline;
+}
+.text-decolation-lt {
+  text-decoration: line-through;
+}
+.text-decolation-underline {
+  text-decoration: underline;
+}
+
+.p1 h4{
+text-align: left;
+text-shadow: 5px 5px 5px;
+}
+
+.p1 p 
+{
+  text-indent: 50px;
+}
+
+.p2 h4{
+text-align: center;
+}
+.p1 h4{
+text-align: right;
+}
+
+* {
+  /* letter space */
+  letter-spacing: 10px;
+  /* word space */
+  word-spacing: 10px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Images</title>
+  <img src="https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp" alt="image">
+  <style>
+    body {
+      /* background-image: url(https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp); */
+      /* background-attachment: scroll; */
+      /* background-attachment: fixed; */
+      background: url('https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp') no-repeat fixed center;
+    }
+
+    img {
+      /* width: 50%; */
+      /* width: 50px; */
+      height: 50%;
+      /* border-radius: 8px; */
+      border-radius: 50%;
+    }
+    
+    div {
+      width: 250px;
+      height: 150px;
+      background-image: url(https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp);
+      /* background-size: contain; */
+      /* background-size: cover; */
+      background-repeat: no-repeat; /*repeat vertically, repeat horizontallly */
+      background-position: right top;
+      overflow: auto;
+      background-attachment: scroll;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <h3>Title</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quo sed, omnis accusamus eos ad laboriosam, unde veniam rerum neque nostrum quia dicta! Hic aliquid nihil dolorem illum. Voluptates, eius!</p>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* element selector */
+h2 {
+font-family: monospace, sans-serif;
+}
+
+/* universal selector */
+* {
+  border: 1px dashed #000;
+}
+
+/* class selector */
+/* class can be effected multiple places */
+.text-center{
+text-align: center;
+}
+
+/* ID selector */
+/* id must be unique name */
+#section-2{
+  background: darkred;
+  color: aliceblue;
+}
+
+
+/* more specific one has priority */
+h2#section-2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+
+h2 {
+  font-family: sans-serif,  serif; /*overwrite teh declaration on line 5*/
+  font-size: 20px;
+}
+
+ul li {
+  color: teal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.fruits li {
+  color: yellow;
+} 
